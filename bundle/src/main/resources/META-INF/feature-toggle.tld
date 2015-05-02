@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+	<tlib-version>1.0.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>Feature Toggle Taglibs</short-name>
+	<uri>http://forwardslash.com/taglibs/featureflag/aem/1.0.0</uri>
+	<tag>
+		<name>featureflag</name>
+		<tag-class>com.forwardslash.featureflag.taglib.LinkTagHandler</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>page</name>
+			<required>false</required>
+			<type>com.day.cq.wcm.api.Page</type>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>text</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>property</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
