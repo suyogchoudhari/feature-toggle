@@ -3,10 +3,10 @@
 	<tlib-version>1.0.0</tlib-version>
 	<jsp-version>2.0</jsp-version>
 	<short-name>Feature Toggle Taglibs</short-name>
-	<uri>http://forwardslash.com/taglibs/featureflag/aem/1.0.0</uri>
+	<uri>http://forwardslash.com/taglibs/featuretoggle/aem/1.0.0</uri>
 	<tag>
 		<name>featureflag</name>
-		<tag-class>com.forwardslash.featureflag.taglib.LinkTagHandler</tag-class>
+		<tag-class>com.forwardslash.featuretoggle.taglib.LinkTagHandler</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>page</name>
