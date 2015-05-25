@@ -16,12 +16,12 @@ import com.forwardslash.featuretoggle.ConfigService;
 
 /**
  * 
- * @author developed by forwardslash
+ * @author developed by ForwardSlash
  *
  */
 
 
-@Component(name = "com.forwardslash.featuretoggle.ConfigService", description = "Feature Toggle configuration.", label = "Forward Slash Feature Toggle Configuration.", metatype = true, configurationFactory = false, immediate = true)
+@Component(name = "com.forwardslash.featuretoggle.ConfigService", description = "Feature Toggle configuration.", label = "Forward Slash Feature Toggle Configuration", metatype = true, configurationFactory = false, immediate = true)
 @Service
 @Properties({
         @Property(name = "service.interface", value = "com.forwardslash.featuretoggle.ConfigService", description = "Feature toggle configuarion service"),
